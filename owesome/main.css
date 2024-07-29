@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    height: 80px;
+    width: auto;
+    color: #fff;
+}
+
+.nav-1 {
+   text-align: center;
+}
+.nav-1 ul {
+    display: flex;
+justify-content: space-around;
+padding-top: 30px;
+
+}
+
+.nav-1 ul a:hover {
+    color: blue;
+}
+
+.nav-1 ul a:active {
+    color: green;
+}
+
+.nav-1 ul li {
+    list-style: none;
+}
+
+.nav-1 ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #112642;
+    height: 200px;
+    width: auto;
+    fill-opacity: 50%;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: 50px
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Paragraph */
+
+p {
+    text-align: center;
+}
+
+/* h2 */
+
+
+/* courses */
+
+.courses {
+    display: flex;
+    gap: 30px;
+    margin-left: 25px;
+}
+
+/* button */
+
+button{
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 80px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.course-c {
+    text-align: center;
+    color: blue;
+}
+
+.f-1 {
+    margin-left: 350px;
+    color: blue;
+    margin-top: 30px;
+}
+
+.f-2 {
+    height: 300px;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.p-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    /* color: blue; */
+    font-size: 22px;
+}
+
+
+
+
+/* img */
+
+img {
+    height: 250px;
+    width: 300px;
+}
+
+/* studentsform */
+
+.studentsform {
+    display: flex;
+    background-color: grey;
+    height: 350px;
+    width: 900px;
+    gap: 100px;
+    padding-top: 25px;
+    padding-left: 50px;
+    margin-left: 200px;
+}
+
+.container  {
+    display: flex;
+    background-color: #112642;
+    color: blue;
+    gap: 25px;
+    height: 450px;
+    width: auto;
+    padding-top: 50px;
+    padding-left: 40px;
+
+}
+
+.p {
+    color: #fff;
+}
+
+.container-pix1 img {
+height: 350px;
+width: 400px;
+}
+
+.courses5 {
+    display: grid;
+    height: 700px;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+    margin-left: 30px;
+
+    /* grid-template-rows: 1200px 1200px 1200px 1200px; */
+}
+
+.courses5 img {
+    width: 385px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.courses-6 {
+    background-color: #112642;
+    padding: 5px;
+    color: white;
+}
+
+li {
+    margin-left: 15px;
+}
+
+.mobile-1 {
+    display: flex;
+    height: 450px;
+    width: 1260px;
+    background-color: #112642;
+    gap: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.mobile-1 img {
+    width: 385px;
+    margin-top: 15px;
+    margin-left: 5px;  
+}
+.front {
+    color: blue;
+}
+
+.button {
+    margin-left: 400px;
+    
+}
+
+/* .button a { */
+    /* background-color: blue; */
+    
+/* } */
+
+
+.courses-7 {
+    background-color: #112642;
+    padding: 5px;
+}
+
+
+.courses-8 {
+    background-color: #112642;
+    padding: 5px;
+}
+
+.courses-9 {
+    background-color: #112642;
+     padding: 5px;
+}
+
+.full {
+    color: blue;
+}
+
+.back {
+    color: blue;
+}
+
+.mobile {
+    color: blue;
+}
+
+.next {
+    background-color: #112642;
+    height: 500px;
+    width: 900px;
+    margin-top: 35px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.button-1 {
+    margin-left: 250px;
+}
+
+.button-1:hover {
+    color: green;
+}
+.software {
+    color: blue;
+    text-align: center;
+}
+
+
+.contactform {
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 35px;
+    background-color: #112642;
+    height: 550px;
+    width: 650px;
+}
+
+.appointmentbutton {
+    position: absolute;
+    width: 100px;
+    margin-top: 40px;
+}
+
+textarea {
+    height: 120px;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #112642;
+    border-radius: 20px;
+}
+
+input {
+    padding-left: 15px;
+    background-color: #112642;
+    height: auto;
+    color: #fff;
+}
+
+.b-1 {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.v-1 {
+    color: blue;
+    font-weight: bold;
+}
+
+.services {
+    /* text-align: center; */
+    height: 320px;
+    width: auto;
+    background-color: #112642;
+    color: #fff;
+
+}
+
+.services h1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(71, 71, 253);
+    width: 230px;
+    height: 80px;
+    margin-left: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services-1 {
+    background-color: rgb(83, 83, 248);
+    height: 180px;
+    width: 300px;
+    margin-left: 500px;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-top: 15px;
+}
+
+.services-1 #p {
+    color: #fff;
+    background-color: #112642;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about {
+    background-color: #112642;
+    height: 350px;
+    width: auto;
+    color: #fff;
+}
+
+.about h2 {
+    background-color:  rgb(70, 70, 243);
+    min-height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 500px;margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutbotton {
+    margin-left: 500px;
+}
+
+
+.contact {
+    background-color: #112642;
+    height: 550px;
+    width: 1100px;
+    color: #fff;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+.contact form {
+    padding-left: 30px;
+}
+
+.send {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+
+}
+
+
+aside {
+    background-color: rgb(69, 69, 252);
+    height: 150px;
+    width: 500px;
+    margin-left: 300px;
+    padding-top: 20px;
+}
